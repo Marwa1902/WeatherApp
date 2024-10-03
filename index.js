@@ -7,7 +7,7 @@ const dinoCanvas = document.getElementById('dino-game');
 
 search.addEventListener('click', () => {
 
-    const APIKey = '181a1874b15b7c9e3e6a8c7c03549929';
+    const APIKey = 'api key';
     const city = document.querySelector('.search-box input').value;
 
     if (city === '')
